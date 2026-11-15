@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Comics Pizza: pizzas deliciosas con mucho sabor." />
-    <meta name="theme-color" content="#090909" />
-    <title>Comics Pizza | Pizza con mucho sabor</title>
+    <meta name="description" content="Comics Pizza - pizzas con sabor, estilo y personalidad." />
+    <meta name="theme-color" content="#050505" />
+    <title>Comics Pizza</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
@@ -14,69 +14,101 @@
   <body>
     <header class="topbar">
       <div class="container nav">
-        <a class="brand" href="#inicio" aria-label="Comics Pizza, inicio">
-          <span class="brand-emblem">CS</span>
-          <span class="brand-name"><span>COMICS</span><small>PIZZA</small></span>
-        </a>
+        <div class="brand-label">
+          <span class="brand-mark">CS</span>
+          <span class="brand-ts">COMICS<br />PIZZA</span>
+        </div>
         <nav class="menu" aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
           <a href="#menu">Menú</a>
           <a href="#nosotros">Nosotros</a>
           <a href="#contacto">Contacto</a>
         </nav>
-        <a class="btn btn-primary" href="#menu">Ver pizzas</a>
+        <a class="btn btn-primary" href="#menu">Pedir</a>
       </div>
     </header>
 
     <main>
       <section id="inicio" class="hero">
         <div class="container hero-content">
-          <div class="hero-copy">
-            <p class="eyebrow">Mucho sabor en cada rebanada</p>
-            <h1>Tu próxima pizza favorita está aquí.</h1>
-            <p class="subtitle">Pizzas recién hechas, ingredientes deliciosos y el sabor que convierte cualquier día en una buena ocasión.</p>
-            <div class="actions">
-              <a class="btn btn-primary" href="#menu">Conoce el menú</a>
-              <a class="btn btn-secondary" href="#contacto">Contáctanos</a>
+          <div class="brand-hero" aria-label="Logo de Comics Pizza">
+            <div class="logo-ring">
+              <div class="cs-block">
+                <span class="cs">CS</span>
+              </div>
+              <div class="fork fork-left"></div>
+              <div class="spoon spoon-right"></div>
             </div>
-            <p class="hero-note"><span aria-hidden="true">★</span> Preparadas al momento, para disfrutar en cada bocado.</p>
-          </div>
-          <div class="hero-visual" aria-label="Ilustración decorativa de una pizza">
-            <div class="pizza-card"><div class="pizza-slice"></div><div class="pizza-shadow"></div><span class="burst">¡RICO!</span></div>
+            <h1 class="title-main">
+              <span class="yellow">COMICS</span>
+              <span class="white">PIZZA</span>
+            </h1>
           </div>
         </div>
       </section>
 
       <section id="menu" class="menu-section">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Recién salidas del horno</p>
-            <h2>Nuestras pizzas</h2>
-            <p class="section-intro">Pronto encontrarás aquí todas las opciones de nuestro menú.</p>
+          <div class="section-header">
+            <p class="eyebrow">Menú</p>
+            <h2>Lo más pedido</h2>
           </div>
-          <div class="cards">
-            <article class="menu-card"><span class="badge">Favorita</span><h3>Pizza de la casa</h3><p>Agrega aquí la descripción e ingredientes de esta pizza.</p><div class="card-footer"><strong>Precio por confirmar</strong></div></article>
-            <article class="menu-card accent"><span class="badge">Especial</span><h3>Una gran combinación</h3><p>Agrega aquí la descripción e ingredientes de esta pizza.</p><div class="card-footer"><strong>Precio por confirmar</strong></div></article>
-            <article class="menu-card"><span class="badge">Clásica</span><h3>La de siempre</h3><p>Agrega aquí la descripción e ingredientes de esta pizza.</p><div class="card-footer"><strong>Precio por confirmar</strong></div></article>
+
+          <div class="menu-grid">
+            <article class="pizza-card-item">
+              <div class="item-top">
+                <span class="badge">Especial</span>
+                <span class="price">$180</span>
+              </div>
+              <h3>Pizza de la Casa</h3>
+              <p>Salsa, queso mozzarella, pepperoni, chile y extra sabor.</p>
+            </article>
+
+            <article class="pizza-card-item featured">
+              <div class="item-top">
+                <span class="badge">Top</span>
+                <span class="price">$220</span>
+              </div>
+              <h3>Supernova</h3>
+              <p>Queso, jamón, champiñones, cebolla y toque de salsa BBQ.</p>
+            </article>
+
+            <article class="pizza-card-item">
+              <div class="item-top">
+                <span class="badge">Clásica</span>
+                <span class="price">$170</span>
+              </div>
+              <h3>Hero Slice</h3>
+              <p>Tomate, albahaca, aceitunas negras y parmesano recién rallado.</p>
+            </article>
           </div>
         </div>
       </section>
 
       <section id="nosotros" class="about">
         <div class="container about-grid">
-          <div><p class="eyebrow">Nuestra pasión</p><h2>Pizza rica, hecha para compartir.</h2></div>
-          <p>En Comics Pizza nos apasiona preparar pizzas que reúnan a todos alrededor de la mesa. Estamos trabajando para compartir contigo nuestro menú completo.</p>
+          <div>
+            <p class="eyebrow">Nosotros</p>
+            <h2>Pizzas para compartir y disfrutar.</h2>
+          </div>
+          <p>
+            En Comics Pizza combinamos sabor, rapidez y buena vibra para hacer de cada pedido una experiencia memorable.
+          </p>
         </div>
       </section>
     </main>
 
     <footer id="contacto" class="footer">
       <div class="container footer-content">
-        <a class="brand footer-brand" href="#inicio" aria-label="Comics Pizza, inicio"><span class="brand-emblem">CS</span><span class="brand-name"><span>COMICS</span><small>PIZZA</small></span></a>
-        <p>¿Tienes hambre? Contáctanos para hacer tu pedido.</p>
+        <div class="brand-label footer-brand">
+          <span class="brand-mark">CS</span>
+          <span class="brand-ts">COMICS<br />PIZZA</span>
+        </div>
+        <p>📍 Calle del Panel 24 • 📞 (555) 123-4567</p>
         <p id="year"></p>
       </div>
     </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
