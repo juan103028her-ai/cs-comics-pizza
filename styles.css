@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CS Comics Pizza - Una experiencia de pizza con estilo de cómic."
+    />
+    <title>CS Comics Pizza</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-mark">CS</span>
+          <span>Comics Pizza</span>
+        </div>
+        <nav class="menu">
+          <a href="#inicio">Inicio</a>
+          <a href="#menu">Menú</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <button class="btn btn-primary">Pedir ahora</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">¡Pizza con power-up!</p>
+            <h1>Tu próxima aventura empieza con una rebanada.</h1>
+            <p class="subtitle">
+              Deliciosas pizzas, ingredientes con sabor épico y un ambiente que
+              parece sacado de una viñeta.
+            </p>
+            <div class="actions">
+              <button class="btn btn-primary">Ver menú</button>
+              <button class="btn btn-secondary">Reservar</button>
+            </div>
+            <ul class="stats">
+              <li><strong>4.9/5</strong><span>Clientes felices</span></li>
+              <li><strong>12k+</strong><span>Pedidos</span></li>
+              <li><strong>20 min</strong><span>Entrega rápida</span></li>
+            </ul>
+          </div>
+          <div class="hero-visual">
+            <div class="pizza-card">
+              <div class="pizza-slice"></div>
+              <div class="pizza-shadow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Especialidades</p>
+            <h2>Combos cósmicos</h2>
+          </div>
+
+          <div class="cards">
+            <article class="menu-card">
+              <span class="badge">Top</span>
+              <h3>Supernova</h3>
+              <p>Tomate, queso mozzarella, pepperoni y jalapeños.</p>
+              <div class="card-footer">
+                <strong>$180</strong>
+                <button class="btn btn-small">Agregar</button>
+              </div>
+            </article>
+
+            <article class="menu-card accent">
+              <span class="badge">Nuevo</span>
+              <h3>Comic Crunch</h3>
+              <p>Queso, champiñones, tocino y salsa barbacoa.</p>
+              <div class="card-footer">
+                <strong>$210</strong>
+                <button class="btn btn-small">Agregar</button>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <span class="badge">Classic</span>
+              <h3>Hero Slice</h3>
+              <p>Clásica marinara, albahaca, aceitunas y parmesano.</p>
+              <div class="card-footer">
+                <strong>$170</strong>
+                <button class="btn btn-small">Agregar</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="nosotros" class="about">
+        <div class="container about-grid">
+          <div>
+            <p class="eyebrow">Nuestra historia</p>
+            <h2>Un lugar donde la comida y la imaginación se juntan.</h2>
+          </div>
+          <p>
+            En CS Comics Pizza fusionamos la energía de un cómic con el placer de
+            una buena pizza. Cada receta está pensada para dejarte con una sonrisa
+            y ganas de otra porción.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacto" class="footer">
+      <div class="container footer-content">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">CS</span>
+            <span>Comics Pizza</span>
+          </div>
+        </div>
+        <p>📍 Calle del Panel 24 · 📞 (555) 123-4567</p>
+        <p id="year"></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
